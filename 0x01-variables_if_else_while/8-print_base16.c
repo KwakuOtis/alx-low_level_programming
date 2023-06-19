@@ -1,21 +1,18 @@
 #include <stdio.h>
+
 /**
- * main Print numbers in base 16
- *
- * Return : Always 0 (Success0
+ * main - prints the lowercase alphabet in reverse,
+ * followed by a new line
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int num;
-	cahr letter;
+	char ch;
 
-	for (num = 0; num < 10; num++)
-		putchar((num % 10) + '0');
-
-	for (letter = 'a'; letter <= 'f'; letter++)
-		putchar(letter);
-
+	for (ch = 'z'; ch >= 'a'; ch--)
+	{
+		putchar(ch);
+	}
 	putchar('\n');
-
 	return (0);
 }
