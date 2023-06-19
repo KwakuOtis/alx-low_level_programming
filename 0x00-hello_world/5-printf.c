@@ -1,11 +1,12 @@
-#include <stdio.h>
+#include<stdio.h>
 /**
- * main - Printing a line with printf function
- * return: 0 (success0
- */
-
+* main - Printing aline with prinf function
+*
+* Return: Always 0 (Success)
+*/
 int main(void)
 {
 	printf("with proper grammar, but the outcome is a piece of art,\n");
 	return (0);
 }
+
